@@ -29,7 +29,7 @@ const Hero = () => {
           your active life.
         </p>
 
-        <Button label='Shop now' iconURL={arrowRight} />
+        <Button label='Shop now' iconURL={arrowRight}/>
 
         <div className='flex flex-wrap items-start justify-start w-full gap-16 mt-20'>
           {statistics.map((stat, index) => (
